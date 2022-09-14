@@ -1,11 +1,8 @@
 #include"main.h"
 
 /**
- *main - Entry point
- *
- * Description: _purchar fuction prototype to print alphabet a-z
- *
- *Return: Always 0 (success)
+ *print_alphabet: a function that prints the alphabet
+ *in lower case
  */
 
 void print_alphabet(void)
