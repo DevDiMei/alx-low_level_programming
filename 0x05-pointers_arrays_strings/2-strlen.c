@@ -6,12 +6,8 @@
 
 int _strlen(char *s)
 {
-int n = 0;
-while
-(*s != '\0');
-{
-s++;
-n++;
-}
-return (n);
+int counter;
+for (counter = 0; *s != '\0'; ++s)
+++counter;
+return (counter);
 }
