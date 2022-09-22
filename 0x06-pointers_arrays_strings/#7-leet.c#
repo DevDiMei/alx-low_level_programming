@@ -19,11 +19,9 @@ for (i = 0; i < 5; i++)
 {
 if (s[c] == s1[i] || s[c] == u1[i])
 {
-s[c] = n[i];
-break;
+  s[i] = j + '0';
 }
 }
-c++;
 }
 return (s);
 }
