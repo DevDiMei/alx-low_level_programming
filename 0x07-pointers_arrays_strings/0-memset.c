@@ -1,16 +1,17 @@
-#include "main.h"
+
 /**
  *_memset - fills memory with constant byte
  *
  *@s:address to string
  *@b:character to fill string
- *@n:no. of spaces
+ *@n:number of spaces
  *
  *Return:pointer to memory area s
  *
  */
 
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
+
 {
 Unsigned int i;
 for (i = 0; i < n; i++)
