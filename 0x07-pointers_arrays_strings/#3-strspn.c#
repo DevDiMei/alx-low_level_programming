@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ *_strspn - gets the length of prefix substring
+ *
+ *@s: pointer to string input
+ *@accept: substring prefix to look for
+ *
+ *Return: number of bytes in intial segment
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+  int i, j, g
