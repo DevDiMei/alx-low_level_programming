@@ -1,0 +1,29 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ *_calloc - allocates memory for an arrys
+ *@nmemb: number of elements
+ *@size: size of elements
+ *Return: pointer
+ */
+
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
+unsigned int i;
+char *p;
+if (!bmemb || !size)
+{
+return (NULL);
+}
+p = malloc(nmemb * size);
+if (!p)
+{
+return (NULL);
+}
+for (i = 0; i < (nmemb * size); i++)
+{
+*(p + i) = 0;
+}
+return (p);
+}
