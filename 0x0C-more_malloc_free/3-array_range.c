@@ -19,7 +19,7 @@ if (min > max)
 return (NULL);
 }
 j = (max - min) + 1;
-p = malloc(sizeof(int) * size);
+p = malloc(sizeof(int) * j);
 if (!p)
 {
 free(p);
