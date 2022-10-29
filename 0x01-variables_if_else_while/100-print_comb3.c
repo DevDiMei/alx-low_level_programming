@@ -2,7 +2,7 @@
 
 /**
  *main- Entry point
- *Description: Program that prints all possible different combinations 
+ *Description: Program that prints all possible different combinations
  *of two digits
  *Numbers separated by ,
  *Two digits must be different
