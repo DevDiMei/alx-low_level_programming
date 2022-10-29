@@ -2,7 +2,8 @@
 
 /**
  *main- Entry point
- *Description: Program that prints all possible different combinations of two digits
+ *Description: Program that prints all possible different combinations 
+ *of two digits
  *Numbers separated by ,
  *Two digits must be different
  *Numbers should be printed in ascending order
@@ -16,7 +17,7 @@ int main(void)
 int num1, num2;
 for (num1 = 48; num1 < 58; num1++)
 {
-for (num2 = num1;num2 < 58; num2++)
+for (num2 = num1; num2 < 58; num2++)
 {
 if (num1 == num2)
 {
